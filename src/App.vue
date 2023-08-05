@@ -1,26 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DatosConsultarVehiculo />
+
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
+ 
+  
+ 
+ <script>
+import DatosConsultarVehiculo from "./modules/vehiculo/components/DatosConsultarVehiculo.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    DatosConsultarVehiculo
+  },
+};
 </script>
-
-<style>
+ 
+  
+ 
+ <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+
   -webkit-font-smoothing: antialiased;
+
   -moz-osx-font-smoothing: grayscale;
+
   text-align: center;
+
   color: #2c3e50;
-  margin-top: 60px;
+
+  
+
+  margin: 60px;
 }
 </style>
